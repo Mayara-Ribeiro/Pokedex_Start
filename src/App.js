@@ -1,15 +1,14 @@
-import './App.css';
 import React from 'react';
-import Home from './pages/Home';
-import Geration from './pages/Geration'
+import Rotas from './routes';
+import { BrowserRouter } from 'react-router-dom';
 
 
-
-function App() {
+const App = () => {
   return (
     <div>
-        <Home/>
-        <Geration/>
+      <BrowserRouter>
+        <Rotas />
+      </BrowserRouter>
     </div>
   );
 }

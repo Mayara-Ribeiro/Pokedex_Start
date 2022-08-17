@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Logo from '../../assets/images/Logo.png';
 import './style.css';
 
+
 function Header  () {
     return (
         <>
@@ -14,15 +15,28 @@ function Header  () {
                     <Navbar.Toggle className='menu' aria-controls='responsive-navbar-nav' />
                     <div className='header-container'>
 
-
                         <Navbar.Collapse id='responsive-navbar-nav'>
-                            <Nav >
-                                <a href="/">Home</a>
-                                
-                                <a href="/Category">Categoria</a>
-                                
-                                <a href="/Geration">Geração</a>
-                            </Nav>
+                      
+                            <Nav className="justify-content-end" activeKey="/home">
+                      <Nav.Item>
+                         <Nav.Link 
+                          activeClass="active"
+                          offset={-70}
+                          duration={100}
+                          href="/">Home</Nav.Link>
+
+                      </Nav.Item>
+                      <Nav.Item>
+                          <Nav.Link 
+                           activeClass="active"
+                           offset={-70}
+                           duration={100}
+                           href="/Category">Categoria</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                          <Nav.Link href="/Geration">Geração</Nav.Link>
+                       </Nav.Item>
+                           </Nav>
                         </Navbar.Collapse>
 
                     </div>

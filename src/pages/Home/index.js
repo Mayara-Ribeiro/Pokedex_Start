@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header'; 
 import Footer from '../../components/Footer';
-import Pokemon from '../Pokemons';
+import Pokemon from '../../components/Pokemons';
 
 
 
