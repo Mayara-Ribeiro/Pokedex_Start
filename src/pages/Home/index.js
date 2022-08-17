@@ -1,17 +1,21 @@
 import React from 'react';
-import Header from '../../components/Header'; 
-import Footer from '../../components/Footer';
-import Pokemon from '../../components/Pokemons';
+import './style.css';
+import Header from '../../components/Header';
+import Pokemons from '../Pokemons';
+import Footer from '../../components/Footer'
 
+const Home = () => {
 
-
-
-function Home() {
+   
     return (
-        <div><Header/>
-        <Pokemon/>
+        <div className='home'>
+            <Header />
+            <Pokemons />
+            <Footer />
+
         </div>
     );
 }
+
 
 export default Home;

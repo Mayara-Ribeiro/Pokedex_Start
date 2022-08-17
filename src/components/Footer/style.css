@@ -1,9 +1,35 @@
-
 .footer {
-    font-family: 'Open Sans', sans-serif;
-    padding: 40px 20px 10px;
-    background-color: #283618;
-    color: white;
-    text-align: center;
-    margin-top: 400px;
+    position: relative;
+    height: 80px;
+    background: #A65132;
+
 }
+
+.grama1, .grama2,
+.grama3 {
+    width: 500px;
+    height: 155.62px;
+    top: -155px;
+
+}
+
+.grama1 {    
+position: relative;
+margin-left: 867px;
+}
+
+.grama2 {    
+    position: absolute;
+    margin-left: 380px;
+}
+
+.grama3 {    
+    position: absolute;
+    margin-left: 1px;
+}
+
+
+
+
+
+

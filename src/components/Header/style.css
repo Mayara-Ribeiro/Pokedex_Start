@@ -15,7 +15,7 @@ img {
 
 .active {
     background-repeat: no-repeat;
-    color: #FFF !important;
+    color: #A65132 !important;
     width: 120px;
     text-decoration: none !important;
     text-align: center;
@@ -28,7 +28,7 @@ img {
 
 a {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #FFFF !important;
+    color: #FFF !important;
     margin: 0;
     font-size: 18px;
     font-weight: bold;
@@ -38,7 +38,7 @@ a {
 
 a:hover {
     background-repeat: no-repeat;
-    color: #A65132 !important;
+    color: #FFF !important;
     background-position: bottom;
 }
 .menu{

@@ -1,11 +1,18 @@
 import React from 'react';
-import './style.css';
 import Header from '../../components/Header'
+import PokemonCategory from '../../pages/PokemonCategory'
+import Footer from '../../components/Footer'
+import './style.css'
 
-
-function Category () {
+const Category = () => {
     return (
-<div><Header/></div>
+          <div className='categoria'>
+            <Header/>
+            <PokemonCategory/>
+            <Footer/>
+          
+          </div>
+
 
     )
 }
