@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import Header from '../../components/Header';
-import Pokemons from '../Pokemons';
+import Pokemons from '../../components/Pokemons';
 import Footer from '../../components/Footer'
 
 const Home = () => {

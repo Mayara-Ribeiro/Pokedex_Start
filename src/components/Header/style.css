@@ -1,5 +1,5 @@
 img {
-    width: 80px;
+    width: 70px;
     margin: 0 280px 0 40px;
 }
 
@@ -9,7 +9,7 @@ img {
     justify-content: space-around !important;
     position: fixed !important;
     width: 100%;
-    height: 80px;
+    height: 70px;
     z-index: 99;
 }
 

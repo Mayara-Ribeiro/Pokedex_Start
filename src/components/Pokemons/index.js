@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css'
+import Pagination from '../Pagination';
 
 const Pokemons = () => {
     return (
         <div className='geral'>
-            <h1>POKEMON GERAL</h1>
-
+             <Pagination/>
         </div >
 
 

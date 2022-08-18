@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header'
-import PokemonCategory from '../../pages/PokemonCategory'
+import PokemonCategory from '../../components/PokemonCategory'
 import Footer from '../../components/Footer'
 import './style.css'
 
