@@ -6,8 +6,8 @@ img {
 .navbar,
 .navbar-expand {
     background-color: #41BDD9;
-    justify-content: space-around !important;
-    position: fixed !important;
+    justify-content: space-around;
+    position: fixed;
     width: 100%;
     height: 70px;
     z-index: 99;
@@ -15,9 +15,9 @@ img {
 
 .active {
     background-repeat: no-repeat;
-    color: #A65132 !important;
+    color: #A65132;
     width: 120px;
-    text-decoration: none !important;
+    text-decoration: none ;
     text-align: center;
     background-position: bottom;
 }
@@ -28,7 +28,7 @@ img {
 
 a {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    color: #FFF !important;
+    color: #FFF ;
     margin: 0;
     font-size: 18px;
     font-weight: bold;
@@ -38,19 +38,19 @@ a {
 
 a:hover {
     background-repeat: no-repeat;
-    color: #FFF !important;
+    color: #FFF ;
     background-position: bottom;
 }
 .menu{
     
     border:none;
-    flex-direction: column !important;
+    flex-direction: column ;
     padding: 0;
-    position: static !important;
+    position: static ;
     margin-left: 300px;
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+    outline: none ;
+    border: none ;
+    box-shadow: none ;
     margin-top: -45px;
     align-items: center;
     

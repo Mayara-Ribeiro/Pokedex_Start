@@ -9,7 +9,7 @@ const Modal= () => {
   
 
     return (
-        <div className='carousel-projects'>
+        <div className='carousel'>
          
             <div>
                 {modalShowData &&
