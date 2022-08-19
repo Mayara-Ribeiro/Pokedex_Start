@@ -8,3 +8,39 @@
 
 }
 
+.botão {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 80px;
+    background-color: #E0E9DC;
+
+}
+
+.card {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 80px;
+    background-color: #C5DFB9;
+
+}
+
+.image {
+    position: relative;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.nome {
+    position: relative;
+    text-align: center;   
+    margin-top: 20px;
+}
+
+.pokemon-img{
+    width: 150px;
+    height: 150px;
+}

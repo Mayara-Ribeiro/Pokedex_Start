@@ -1,19 +1,23 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import ModalDetails from '../ModalDetails'
 import './style.css'
+import Logo from '../../assets/images/Logo.png'
 
-function CardPokemon () {
+function CardPokemon (props) {
     const [modalShow, setModalShow] = React.useState(false);
   
     return (
     <>
       <div
         onClick={() => setModalShow(true)}  
-        className='botão'>
-                  POKEMON      
+        className='card'>
+                  <div className='image'>
+                    <img src={Logo} />
+                  </div>      
+
+                  <div className="nome"><h6>Pikachu</h6></div>
       </div>
-     
+      
 
       <ModalDetails
         show={modalShow}
@@ -24,3 +28,4 @@ function CardPokemon () {
   }
   
 export default CardPokemon;
+

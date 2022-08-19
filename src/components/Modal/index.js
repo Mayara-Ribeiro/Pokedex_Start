@@ -6,14 +6,10 @@ import ModalDetails from '../ModalDetails';
 
 
 const Modal= ({ data }) => {
-    let [itemsToShowDevice, setItemsToShowDevice] = useState(3);
     const [modalShowData, setModalShowData] = useState(false);
     const [projectDataId, setProjectDataId] = useState('');
 
-    const modalShow = (id) => {
-        setProjectDataId(id);
-        setModalShowData(true);
-    }
+ 
 
     return (
         <div className='carousel-projects'>
