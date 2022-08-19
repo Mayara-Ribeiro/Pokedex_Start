@@ -5,11 +5,8 @@ import ModalDetails from '../ModalDetails';
 
 
 
-const Modal= ({ data }) => {
-    const [modalShowData, setModalShowData] = useState(false);
-    const [projectDataId, setProjectDataId] = useState('');
-
- 
+const Modal= () => {
+  
 
     return (
         <div className='carousel-projects'>
@@ -17,9 +14,7 @@ const Modal= ({ data }) => {
             <div>
                 {modalShowData &&
                     <ModalDetails
-                        show={modalShowData}
-                        projectid={projectDataId}
-                        onHide={() => setModalShowData(false)} />
+                      />
                 }
             </div>
         </div>
