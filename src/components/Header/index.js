@@ -11,7 +11,7 @@ return (
         <Navbar collapseOnSelect fixed='top' expand='sm' variant='dark' >
 
             <Container>
-                <img alt='logo' src={Logo} />
+             <a href='/'> <img alt='logo' src={Logo} /></a>  
                 <Navbar.Toggle className='menu' aria-controls='responsive-navbar-nav' />
                 <div className='header-container'>
 

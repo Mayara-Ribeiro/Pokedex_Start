@@ -1,15 +1,14 @@
 import React from 'react';
 import './style.css'
-import Pagination from '../Pagination';
-
+import CardPokemon from '../CardPokemon'
 const Pokemons = () => {
     return (
         <div className='geral'>
-             <Pagination/>
+             <CardPokemon />
         </div >
 
 
-    )
+    )   
 }
 
 export default Pokemons;
