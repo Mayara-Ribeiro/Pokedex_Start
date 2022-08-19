@@ -1,7 +1,7 @@
 import React from "react";
 import ModalDetails from '../ModalDetails'
 import './style.css'
-import Logo from '../../assets/images/Logo.png'
+import pokemon from '../../assets/images/pokemon.png'
 
 function CardPokemon (props) {
     const [modalShow, setModalShow] = React.useState(false);
@@ -12,7 +12,7 @@ function CardPokemon (props) {
         onClick={() => setModalShow(true)}  
         className='card'>
                   <div className='image'>
-                    <img src={Logo} />
+                    <img src={pokemon} />
                   </div>      
 
                   <div className="nome"><h6>Pikachu</h6></div>
