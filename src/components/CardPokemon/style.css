@@ -2,7 +2,7 @@
     position: relative;
     height: 200px;
     width: 300px;
-    margin-top: 95px;
+    margin-top: 240px;
     margin-left: 80px;
     background-color: #E0E9DC;
 
@@ -43,4 +43,9 @@
 .pokemon-img{
     width: 150px;
     height: 150px;
+}
+
+.text{
+    margin-top: 150px;
+    margin-left: 600px;
 }

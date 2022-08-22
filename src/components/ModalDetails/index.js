@@ -3,6 +3,9 @@ import "./style.css";
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
+
+
 const ModalDetails = (props) => {
   
     return (
@@ -13,8 +16,14 @@ const ModalDetails = (props) => {
             centered
         >
             <Modal.Header closeButton>
+                <p>PIKACHU</p>
             </Modal.Header>
-           
+            <Modal.Body>
+                <div className="modal-body">
+                    <div></div>
+                    <p>PESO</p>
+                </div>
+            </Modal.Body>           
         </Modal>
     )
 }

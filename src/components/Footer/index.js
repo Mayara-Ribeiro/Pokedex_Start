@@ -8,10 +8,12 @@ const Footer = () => {
   return (
 
   <div className='footer'>
+
+      <div className='borda-grama'>
         <img src={Grama} className='grama1'/>
         <img src={Grama} className='grama2'/>
         <img src={Grama} className='grama3'/>
-
+      </div>
 
       <div className='info-footer'>
          <a href='https://www.linkedin.com/in/mayara-ribeiro-/' className='linkedin'><img src={Linkedin}/></a> 
